@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="EXO_Application:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>EXO_Application</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="EXO_Application-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="EXO_Application:war exploded" />
+    </root>
+  </artifact>
+</component>
